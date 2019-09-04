@@ -2,7 +2,6 @@
 
 #include "define_delay.h"
 
-// goes to 21
 #define OFF  5u;
 #define ON_REV 15u;
 #define ON_FWD 15u;
