@@ -64,7 +64,7 @@ int main( void ){
         PORTB |= 0x03u;
 
         delay_100us(14);
-        asm("nop");asm("nop");asm("nop");
+        asm("nop");asm("nop");asm("nop");asm("nop");
 
 
         if(PINB & 0x10u){
